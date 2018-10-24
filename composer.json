@@ -4,7 +4,9 @@
     "type": "project",
     "require": {
         "php": "7.2.*",
+        "ext-SimpleXML": "*",
         "ext-json": "*",
+        "ext-mbstring": "*",
         "guzzlehttp/guzzle": "6.3.3",
         "laravie/parser": "2.0.0",
         "league/csv": "9.1.4",
