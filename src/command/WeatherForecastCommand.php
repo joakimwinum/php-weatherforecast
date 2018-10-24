@@ -116,7 +116,6 @@ class WeatherForecastCommand extends Command
         } else if ($searchScope == "world") {
             $whereToSearch = Search::WORLD_CSV_FILE;
         }
-        var_dump($whereToSearch);
 
         // get the preferred language of the search
         $searchLanguage = Search::LANGUAGE_ENGLISH;
