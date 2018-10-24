@@ -1,0 +1,29 @@
+{
+    "name": "joakimwinum/weatherforecast",
+    "description": "This is a weather forecast CLI implementation written in PHP",
+    "type": "project",
+    "require": {
+        "php": "7.2.*",
+        "ext-json": "*",
+        "guzzlehttp/guzzle": "6.3.3",
+        "laravie/parser": "2.0.0",
+        "league/csv": "9.1.4",
+        "loilo/fuse": "3.3.0",
+        "symfony/console": "4.1.6"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Joakim Winum Lien",
+            "email": "joakim@winum.xyz"
+        }
+    ],
+    "config": {
+        "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": {
+            "joakimwinum\\weatherforecast\\": "src/"
+        }
+    }
+}
